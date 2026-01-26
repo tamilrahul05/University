@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Excellence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo"><i class="fa-solid fa-graduation-cap"></i> University</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Department</a></li>
+                    <li><a href="#">Expert</a></li>
+                    <li><a href="#">Campus</a></li>
+                </ul>
+            </div>
+            <a href="#" class="btn-contact">Contact Us</a>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="header">
+        <div class="text-box">
+            <h1>Navigating Success<br>One Strategy at a<br>Time Life</h1>
+            <p>A wonderful serenity has taken possession of my entire soul,<br>like these sweet mornings of spring which
+                I enjoy.</p>
+            <a href="#" class="hero-btn">Learn More</a>
+            <div class="play-btn">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+
+        <div class="hero-cards">
+            <div class="card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Education Services</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-globe"></i>
+                <h3>International Hub</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Bachelor's/Master's</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="mission-text">
+            <h5>About Us</h5>
+            <h1>Our mission is to provide<br>high-quality accessible</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+            <a href="#" class="hero-btn">Learn More</a>
+        </div>
+        <div class="mission-img">
+            <img src="assets/london.png" alt="Student" class="img-large">
+            <img src="assets/newyork.png" alt="Classroom">
+            <img src="assets/washington.png" alt="Campus">
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>90% Employed</h3>
+                <p>Based on a University driven curriculum</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-user-graduate"></i>
+                <h3>50k+ Students</h3>
+                <p>Active learning throughout the world</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>300+ Mentors</h3>
+                <p>Expert mentors from global industries</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-earth-americas"></i>
+                <h3>50+ Countries</h3>
+                <p>Students from all over the globe</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+        <div class="links-content">
+            <h2>Quick Links</h2>
+            <p>Explore our most popular resources and pages.</p>
+            <div class="links-list">
+                <a href="#">Client Directory From global education <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#">Client Directory Through education <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#">Client Directory From global education <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#">Client Directory Through education <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="links-img">
+            <img src="assets/user1.png" alt="Graduates">
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="subscribe">
+        <div class="sub-text">
+            <h2>Subscribe to our newsletter</h2>
+            <p>Stay updated with the latest news and events.</p>
+        </div>
+        <div class="sub-form">
+            <input type="email" placeholder="Enter your email address">
+            <button>Subscribe Now</button>
+        </div>
+    </section>
+
+    <!-- Lifelong Learning -->
+    <section class="lifelong">
+        <h2>Lifelong Through Education</h2>
+        <a href="#">Read More</a>
+    </section>
+
+    <!-- Builds Knowledge -->
+    <section class="knowledge">
+        <div class="know-img">
+            <img src="assets/library.png" alt="Library">
+        </div>
+        <div class="know-content">
+            <div class="tabs">
+                <button class="tab-btn active">PORTAL</button>
+                <button class="tab-btn">STUDENT</button>
+                <button class="tab-btn">PROPERTY</button>
+            </div>
+            <h2>Builds Knowledge and Skills in the education</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                faucibus est sollicitudin ut.</p>
+            <p>Maecenas ut venenatis ex, et dapibus purus. Donec sit amet quam eget eros faucibus tincidunt.</p>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application">
+        <div class="app-form">
+            <h2>Application Form</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <select>
+                        <option>Select Course</option>
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Message">
+                </div>
+                <button type="submit" class="submit-btn">Submit Now</button>
+            </form>
+        </div>
+        <div class="app-img">
+            <img src="assets/cafeteria.png" alt="Campus Life">
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <h2>Education For All Forever<br>and the Always</h2>
+        <div class="blog-container">
+            <div class="blog-card">
+                <img src="assets/basketball.png" alt="Blog 1">
+                <div class="blog-content">
+                    <span class="blog-date">Jan 20, 2024</span>
+                    <h3>Building a better world through education</h3>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="assets/london.png" alt="Blog 2">
+                <div class="blog-content">
+                    <span class="blog-date">Jan 18, 2024</span>
+                    <h3>Building a better world through education</h3>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="assets/newyork.png" alt="Blog 3">
+                <div class="blog-content">
+                    <span class="blog-date">Jan 15, 2024</span>
+                    <h3>Building a better world through education</h3>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>About the University</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Our Services</a>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Support</a>
+            </div>
+            <div class="footer-col">
+                <h3>Useful Links</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Help Center</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Site Map</a>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates.</p>
+                <div class="sub-form" style="flex-direction: column; width: 100%;">
+                    <input type="email" placeholder="Email" style="width: 100%; margin-bottom: 10px;">
+                    <button style="width: 100%;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 University. All Rights Reserved.</p>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
