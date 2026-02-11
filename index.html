@@ -19,32 +19,38 @@
     <header>
         <nav class="navbar">
             <a href="#" class="logo"><i class="fa-solid fa-graduation-cap"></i> University</a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <input type="checkbox" id="nav-check">
+
+            <div class="nav-links">
+                <label for="nav-check" class="close-btn"><i class="fa-solid fa-xmark"></i></label>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Course</a></li>
-                    <li><a href="#">Department</a></li>
-                    <li><a href="#">Expert</a></li>
-                    <li><a href="#">Campus</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#department">Department</a></li>
+                    <li><a href="#expert">Expert</a></li>
+                    <li><a href="#campus">Campus</a></li>
                 </ul>
             </div>
-            <a href="#" class="btn-contact">Contact Us</a>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            <div class="nav-actions">
+                <a href="contact.html" class="btn-contact">Contact Us</a>
+                <label for="nav-check" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="header">
+    <section class="header" id="home">
         <div class="text-box">
             <h1>Navigating Success<br>One Strategy at a<br>Time Life</h1>
             <p>A wonderful serenity has taken possession of my entire soul,<br>like these sweet mornings of spring which
                 I enjoy.</p>
             <a href="#" class="hero-btn">Learn More</a>
-            <div class="play-btn">
+            <a href="#" class="play-btn">
                 <i class="fa-solid fa-play"></i>
-            </div>
+            </a>
         </div>
 
         <div class="hero-cards">
@@ -70,7 +76,7 @@
     </section>
 
     <!-- Mission Section -->
-    <section class="mission">
+    <section class="mission" id="about">
         <div class="mission-text">
             <h5>About Us</h5>
             <h1>Our mission is to provide<br>high-quality accessible</h1>
@@ -79,14 +85,17 @@
             <a href="#" class="hero-btn">Learn More</a>
         </div>
         <div class="mission-img">
-            <img src="assets/london.png" alt="Student" class="img-large">
-            <img src="assets/newyork.png" alt="Classroom">
-            <img src="assets/washington.png" alt="Campus">
+            <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Student" class="img-large">
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Classroom">
+            <img src="https://images.unsplash.com/photo-1492533213003-30c553317750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Campus">
         </div>
     </section>
 
     <!-- Stats Section -->
-    <section class="stats">
+    <section class="stats" id="course">
         <div class="stats-container">
             <div class="stat-box">
                 <i class="fa-solid fa-graduation-cap"></i>
@@ -116,7 +125,7 @@
     </section>
 
     <!-- Quick Links Section -->
-    <section class="quick-links">
+    <section class="quick-links" id="department">
         <div class="links-content">
             <h2>Quick Links</h2>
             <p>Explore our most popular resources and pages.</p>
@@ -128,15 +137,16 @@
             </div>
         </div>
         <div class="links-img">
-            <img src="assets/user1.png" alt="Graduates">
+            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Graduates">
         </div>
     </section>
 
     <!-- Video Section -->
     <section class="video-section">
-        <div class="video-play">
+        <a href="#" class="video-play">
             <i class="fa-solid fa-play"></i>
-        </div>
+        </a>
     </section>
 
     <!-- Subscribe Section -->
@@ -158,9 +168,10 @@
     </section>
 
     <!-- Builds Knowledge -->
-    <section class="knowledge">
+    <section class="knowledge" id="expert">
         <div class="know-img">
-            <img src="assets/library.png" alt="Library">
+            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Library">
         </div>
         <div class="know-content">
             <div class="tabs">
@@ -176,7 +187,7 @@
     </section>
 
     <!-- Application Form -->
-    <section class="application">
+    <section class="application" id="campus">
         <div class="app-form">
             <h2>Application Form</h2>
             <form>
@@ -202,7 +213,8 @@
             </form>
         </div>
         <div class="app-img">
-            <img src="assets/cafeteria.png" alt="Campus Life">
+            <img src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Campus Life">
         </div>
     </section>
 
@@ -211,7 +223,8 @@
         <h2>Education For All Forever<br>and the Always</h2>
         <div class="blog-container">
             <div class="blog-card">
-                <img src="assets/basketball.png" alt="Blog 1">
+                <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Blog 1">
                 <div class="blog-content">
                     <span class="blog-date">Jan 20, 2024</span>
                     <h3>Building a better world through education</h3>
@@ -219,7 +232,8 @@
                 </div>
             </div>
             <div class="blog-card">
-                <img src="assets/london.png" alt="Blog 2">
+                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Blog 2">
                 <div class="blog-content">
                     <span class="blog-date">Jan 18, 2024</span>
                     <h3>Building a better world through education</h3>
@@ -227,7 +241,8 @@
                 </div>
             </div>
             <div class="blog-card">
-                <img src="assets/newyork.png" alt="Blog 3">
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Blog 3">
                 <div class="blog-content">
                     <span class="blog-date">Jan 15, 2024</span>
                     <h3>Building a better world through education</h3>
@@ -280,15 +295,7 @@
     </section>
 
 
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
+
 
 </body>
 
