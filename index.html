@@ -4,298 +4,570 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Excellence</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <title>Tamil Tech University | Empowering Future Innovators</title>
+    <meta name="description"
+        content="Tamil Tech University - A premier institution for Engineering, Management, Arts & Science and Medical programs.">
+
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Our Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo"><i class="fa-solid fa-graduation-cap"></i> University</a>
+    <header id="header">
+        <div class="container navbar">
 
-            <input type="checkbox" id="nav-check">
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                TAMIL <span>TECH</span>
+            </a>
 
-            <div class="nav-links">
-                <label for="nav-check" class="close-btn"><i class="fa-solid fa-xmark"></i></label>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#course">Course</a></li>
-                    <li><a href="#department">Department</a></li>
-                    <li><a href="#expert">Expert</a></li>
-                    <li><a href="#campus">Campus</a></li>
-                </ul>
-            </div>
+            <!-- Nav Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#campus">Campus Life</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-            <div class="nav-actions">
-                <a href="contact.html" class="btn-contact">Contact Us</a>
-                <label for="nav-check" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
-            </div>
-        </nav>
+            <!-- Hamburger Button (Mobile) -->
+            <button class="hamburger" id="hamburger" aria-label="Open Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="header" id="home">
-        <div class="text-box">
-            <h1>Navigating Success<br>One Strategy at a<br>Time Life</h1>
-            <p>A wonderful serenity has taken possession of my entire soul,<br>like these sweet mornings of spring which
-                I enjoy.</p>
-            <a href="#" class="hero-btn">Learn More</a>
-            <a href="#" class="play-btn">
-                <i class="fa-solid fa-play"></i>
-            </a>
-        </div>
 
-        <div class="hero-cards">
-            <div class="card">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h3>Education Services</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-globe"></i>
-                <h3>International Hub</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-book-open"></i>
-                <h3>Bachelor's/Master's</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1 class="fade-in">Empowering Future <span>Innovators</span></h1>
+            <p class="fade-in">Excellence in Education, Research & Innovation. Join the next generation of global
+                leaders at Tamil Tech University.</p>
+            <div class="hero-buttons fade-in">
+                <a href="#admissions" class="btn-gold">Apply Now</a>
+                <a href="#courses" class="btn-white">Explore Programs</a>
             </div>
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section class="mission" id="about">
-        <div class="mission-text">
-            <h5>About Us</h5>
-            <h1>Our mission is to provide<br>high-quality accessible</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
-                faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
-            <a href="#" class="hero-btn">Learn More</a>
-        </div>
-        <div class="mission-img">
-            <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Student" class="img-large">
-            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Classroom">
-            <img src="https://images.unsplash.com/photo-1492533213003-30c553317750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Campus">
-        </div>
-    </section>
 
-    <!-- Stats Section -->
-    <section class="stats" id="course">
-        <div class="stats-container">
-            <div class="stat-box">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h3>90% Employed</h3>
-                <p>Based on a University driven curriculum</p>
-                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+    <!-- ===================== STATS STRIP ===================== -->
+    <section class="stats-strip">
+        <div class="container stats-grid">
+            <div class="stat-box fade-in">
+                <h3>25,000+</h3>
+                <p>Global Students</p>
             </div>
-            <div class="stat-box">
-                <i class="fa-solid fa-user-graduate"></i>
-                <h3>50k+ Students</h3>
-                <p>Active learning throughout the world</p>
-                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="stat-box fade-in">
+                <h3>800+</h3>
+                <p>Expert Faculty</p>
             </div>
-            <div class="stat-box">
-                <i class="fa-solid fa-chalkboard-user"></i>
-                <h3>300+ Mentors</h3>
-                <p>Expert mentors from global industries</p>
-                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="stat-box fade-in">
+                <h3>15+</h3>
+                <p>Departments</p>
             </div>
-            <div class="stat-box">
-                <i class="fa-solid fa-earth-americas"></i>
-                <h3>50+ Countries</h3>
-                <p>Students from all over the globe</p>
-                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="stat-box fade-in">
+                <h3>95%</h3>
+                <p>Placement Rate</p>
             </div>
         </div>
     </section>
 
-    <!-- Quick Links Section -->
-    <section class="quick-links" id="department">
-        <div class="links-content">
-            <h2>Quick Links</h2>
-            <p>Explore our most popular resources and pages.</p>
-            <div class="links-list">
-                <a href="#">Client Directory From global education <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#">Client Directory Through education <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#">Client Directory From global education <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#">Client Directory Through education <i class="fa-solid fa-arrow-right"></i></a>
+
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in">About Our University</h2>
+                <p class="fade-in">A legacy of excellence and a future of innovation.</p>
             </div>
-        </div>
-        <div class="links-img">
-            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Graduates">
-        </div>
-    </section>
 
-    <!-- Video Section -->
-    <section class="video-section">
-        <a href="#" class="video-play">
-            <i class="fa-solid fa-play"></i>
-        </a>
-    </section>
+            <div class="about-grid">
 
-    <!-- Subscribe Section -->
-    <section class="subscribe">
-        <div class="sub-text">
-            <h2>Subscribe to our newsletter</h2>
-            <p>Stay updated with the latest news and events.</p>
-        </div>
-        <div class="sub-form">
-            <input type="email" placeholder="Enter your email address">
-            <button>Subscribe Now</button>
-        </div>
-    </section>
+                <!-- Left: Text -->
+                <div class="about-text fade-in">
+                    <h3>A Legacy of Academic Excellence</h3>
+                    <p>Tamil Tech University stands as a beacon of knowledge and innovation. Since its inception, we
+                        have been committed to providing world-class education that empowers students to challenge the
+                        status quo and create a better future.</p>
+                    <p>Our campus is a melting pot of cultures, ideas, and ambitions — providing an environment where
+                        students can thrive both academically and personally.</p>
 
-    <!-- Lifelong Learning -->
-    <section class="lifelong">
-        <h2>Lifelong Through Education</h2>
-        <a href="#">Read More</a>
-    </section>
-
-    <!-- Builds Knowledge -->
-    <section class="knowledge" id="expert">
-        <div class="know-img">
-            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Library">
-        </div>
-        <div class="know-content">
-            <div class="tabs">
-                <button class="tab-btn active">PORTAL</button>
-                <button class="tab-btn">STUDENT</button>
-                <button class="tab-btn">PROPERTY</button>
-            </div>
-            <h2>Builds Knowledge and Skills in the education</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
-                faucibus est sollicitudin ut.</p>
-            <p>Maecenas ut venenatis ex, et dapibus purus. Donec sit amet quam eget eros faucibus tincidunt.</p>
-        </div>
-    </section>
-
-    <!-- Application Form -->
-    <section class="application" id="campus">
-        <div class="app-form">
-            <h2>Application Form</h2>
-            <form>
-                <div class="form-group">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
+                    <!-- Vision & Mission Cards -->
+                    <div class="mv-grid">
+                        <div class="mv-card">
+                            <h4><i class="fas fa-eye" style="color: #C5A021; margin-right: 6px;"></i> Our Vision</h4>
+                            <p>To be a premier global institution recognized for academic excellence and groundbreaking
+                                research.</p>
+                        </div>
+                        <div class="mv-card">
+                            <h4><i class="fas fa-bullseye" style="color: #C5A021; margin-right: 6px;"></i> Our Mission
+                            </h4>
+                            <p>To provide accessible, high-quality education that fosters innovation, creativity, and
+                                ethical leadership.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Email Address">
-                    <input type="tel" placeholder="Phone Number">
-                </div>
-                <div class="form-group">
-                    <select>
-                        <option>Select Course</option>
-                        <option>Course 1</option>
-                        <option>Course 2</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <input type="text" placeholder="Message">
-                </div>
-                <button type="submit" class="submit-btn">Submit Now</button>
-            </form>
-        </div>
-        <div class="app-img">
-            <img src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Campus Life">
-        </div>
-    </section>
 
-    <!-- Blog Section -->
-    <section class="blog">
-        <h2>Education For All Forever<br>and the Always</h2>
-        <div class="blog-container">
-            <div class="blog-card">
-                <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Blog 1">
-                <div class="blog-content">
-                    <span class="blog-date">Jan 20, 2024</span>
-                    <h3>Building a better world through education</h3>
-                    <a href="#">Read More</a>
+                <!-- Right: Image -->
+                <div class="about-image fade-in">
+                    <img src="assets/about.jpg" alt="University Campus Building">
                 </div>
-            </div>
-            <div class="blog-card">
-                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Blog 2">
-                <div class="blog-content">
-                    <span class="blog-date">Jan 18, 2024</span>
-                    <h3>Building a better world through education</h3>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="blog-card">
-                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Blog 3">
-                <div class="blog-content">
-                    <span class="blog-date">Jan 15, 2024</span>
-                    <h3>Building a better world through education</h3>
-                    <a href="#">Read More</a>
-                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <section class="footer">
-        <div class="footer-content">
-            <div class="footer-col">
-                <h3>About the University</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
-                <div class="social-icons">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
+
+    <!-- ===================== COURSES SECTION ===================== -->
+    <section class="section-gray" id="courses">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in">Academic Programs</h2>
+                <p class="fade-in">Choose from a wide range of undergraduate and postgraduate programs.</p>
+            </div>
+
+            <div class="courses-grid">
+
+                <!-- Engineering -->
+                <div class="course-card fade-in">
+                    <img src="assets/engineering.jpg" alt="Engineering Program">
+                    <div class="course-info">
+                        <h3>Engineering</h3>
+                        <p>Leading-edge technical education in CSE, ECE, Mechanical, and Civil streams with hands-on lab
+                            training.</p>
+                        <a href="#" class="course-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="footer-col">
-                <h3>Quick Links</h3>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Our Services</a>
-                <a href="#">Terms & Condition</a>
-                <a href="#">Support</a>
-            </div>
-            <div class="footer-col">
-                <h3>Useful Links</h3>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Help Center</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Site Map</a>
-            </div>
-            <div class="footer-col">
-                <h3>Newsletter</h3>
-                <p>Subscribe to our newsletter for the latest updates.</p>
-                <div class="sub-form" style="flex-direction: column; width: 100%;">
-                    <input type="email" placeholder="Email" style="width: 100%; margin-bottom: 10px;">
-                    <button style="width: 100%;">Subscribe</button>
+
+                <!-- Management -->
+                <div class="course-card fade-in">
+                    <img src="assets/management.jpg" alt="Management Program">
+                    <div class="course-info">
+                        <h3>Management</h3>
+                        <p>Develop future business leaders through our comprehensive MBA and BBA programs with industry
+                            exposure.</p>
+                        <a href="#" class="course-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
+
+                <!-- Arts & Science -->
+                <div class="course-card fade-in">
+                    <img src="assets/arts.jpg" alt="Arts and Science Program">
+                    <div class="course-info">
+                        <h3>Arts & Science</h3>
+                        <p>Diverse programs in Humanities, Social Sciences, and Pure Sciences to nurture well-rounded
+                            thinkers.</p>
+                        <a href="#" class="course-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Medical -->
+                <div class="course-card fade-in">
+                    <img src="assets/medical.jpg" alt="Medical Program">
+                    <div class="course-info">
+                        <h3>Medical</h3>
+                        <p>Excellence in healthcare education backed by world-class hospital facilities and experienced
+                            doctors.</p>
+                        <a href="#" class="course-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 University. All Rights Reserved.</p>
+    </section>
+
+
+    <!-- ===================== ADMISSIONS SECTION ===================== -->
+    <section class="admissions-section" id="admissions">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in">Admissions 2024</h2>
+                <p class="fade-in">Simple steps to begin your journey at Tamil Tech University.</p>
+            </div>
+
+            <div class="admissions-grid">
+
+                <!-- Left: Steps -->
+                <div class="fade-in">
+                    <h3 class="steps-title">Application Process</h3>
+
+                    <div class="step-item">
+                        <div class="step-number">01</div>
+                        <div class="step-text">
+                            <h4>Online Registration</h4>
+                            <p>Register on our portal with your basic personal and academic details.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">02</div>
+                        <div class="step-text">
+                            <h4>Document Upload</h4>
+                            <p>Upload all required academic transcripts and identity documents.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">03</div>
+                        <div class="step-text">
+                            <h4>Entrance Test (TTAT)</h4>
+                            <p>Appear for the Tamil Tech Admission Test conducted online or offline.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">04</div>
+                        <div class="step-text">
+                            <h4>Final Selection</h4>
+                            <p>Selected candidates will be interviewed and offered admission letters.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Eligibility -->
+                <div class="eligibility-box fade-in">
+                    <h3>Eligibility Criteria</h3>
+                    <div class="eligibility-divider"></div>
+                    <ul>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Minimum 60% marks in Higher Secondary (10+2) education.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Valid score in a national or state level entrance examination.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Good communication and interpersonal skills required.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            International students must submit valid TOEFL or IELTS scores.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Age must be between 17 and 25 years for undergraduate programs.
+                        </li>
+                    </ul>
+                    <a href="#" class="apply-full-btn">Apply Online Now</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== DEPARTMENTS SECTION ===================== -->
+    <section class="section" id="departments">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in">Our Departments</h2>
+                <p class="fade-in">Explore our diverse academic departments led by expert faculty.</p>
+            </div>
+
+            <div class="dept-grid">
+
+                <div class="dept-card fade-in">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Computer Science</h4>
+                </div>
+
+                <div class="dept-card fade-in">
+                    <i class="fas fa-cogs"></i>
+                    <h4>Mechanical</h4>
+                </div>
+
+                <div class="dept-card fade-in">
+                    <i class="fas fa-hard-hat"></i>
+                    <h4>Civil</h4>
+                </div>
+
+                <div class="dept-card fade-in">
+                    <i class="fas fa-microchip"></i>
+                    <h4>ECE</h4>
+                </div>
+
+                <div class="dept-card fade-in">
+                    <i class="fas fa-briefcase"></i>
+                    <h4>MBA</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== RESEARCH SECTION ===================== -->
+    <section class="section-gray" id="research">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in">Research & Innovation</h2>
+                <p class="fade-in">Pushing the boundaries of knowledge and solving real-world problems.</p>
+            </div>
+
+            <div class="research-grid">
+
+                <!-- Left: Image -->
+                <div class="research-image fade-in">
+                    <img src="assets/research.jpg" alt="Research Laboratory">
+                </div>
+
+                <!-- Right: Text -->
+                <div class="research-text fade-in">
+                    <h3>Driving Discoveries That Change the World</h3>
+                    <p>At Tamil Tech, research is at the heart of everything we do. Our state-of-the-art research labs
+                        and innovation centers provide the perfect platform for students and faculty alike.</p>
+
+                    <div class="research-features">
+                        <div class="res-feature">
+                            <i class="fas fa-microscope"></i>
+                            <h4>Research Labs</h4>
+                            <p>20+ specialized labs for AI, Robotics, Biotech, and more.</p>
+                        </div>
+                        <div class="res-feature">
+                            <i class="fas fa-book-open"></i>
+                            <h4>Publications</h4>
+                            <p>500+ annual research papers in top international journals.</p>
+                        </div>
+                        <div class="res-feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Innovation Center</h4>
+                            <p>Incubating 50+ student-led startups and patents every year.</p>
+                        </div>
+                        <div class="res-feature">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Industry Ties</h4>
+                            <p>Partnerships with Fortune 500 companies and global research institutes.</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn-gold">Visit Innovation Center</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== CAMPUS LIFE SECTION ===================== -->
+    <section class="section" id="campus">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in">Campus Life</h2>
+                <p class="fade-in">Experience a vibrant and fulfilling life beyond the classroom.</p>
+            </div>
+
+            <!-- Sports, Clubs, Events Cards -->
+            <div class="campus-cards">
+
+                <div class="campus-card fade-in">
+                    <i class="fas fa-running"></i>
+                    <h4>Sports Excellence</h4>
+                    <p>Olympic-size swimming pool, indoor stadium, and professional coaching for all major sports and
+                        athletics.</p>
+                </div>
+
+                <div class="campus-card fade-in">
+                    <i class="fas fa-users"></i>
+                    <h4>Student Clubs</h4>
+                    <p>From Robotics and Coding to Drama and Music, 40+ active student clubs to explore your passions.
+                    </p>
+                </div>
+
+                <div class="campus-card fade-in">
+                    <i class="fas fa-calendar-star"></i>
+                    <h4>Annual Events</h4>
+                    <p>Tech-Fest and Cultural-Jubilee attract thousands of participants from across the country every
+                        year.</p>
+                </div>
+
+            </div>
+
+            <!-- Photo Gallery -->
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="assets/campus1.jpg" alt="Campus Events">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="assets/campus2.jpg" alt="Student Tech Club">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="assets/campus3.jpg" alt="Campus Sports">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="assets/campus4.jpg" alt="Campus Library">
+                </div>
+            </div>
+
         </div>
     </section>
 
 
 
+
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section class="section-gray" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in">Get In Touch</h2>
+                <p class="fade-in">We'd love to hear from you. Reach out with any questions.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Left: Info + Map -->
+                <div class="contact-info fade-in">
+
+                    <div class="contact-info-box">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Our Address</h4>
+                            <p>123 Academy Boulevard, Tech City, Tamil Nadu - 600001</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-box">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p>+91 1800 123 4567</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-box">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p>admissions@tamiltech.edu.in</p>
+                        </div>
+                    </div>
+
+                    <!-- Google Map Embed -->
+                    <div class="map-embed">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089684622!2d80.06892064999999!3d13.0474816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                </div>
+
+                <!-- Right: Contact Form -->
+                <form class="contact-form fade-in" id="contactForm">
+
+                    <div class="form-row">
+                        <input type="text" class="form-input" id="fname" placeholder="Full Name" required>
+                        <input type="email" class="form-input" id="femail" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="tel" class="form-input" id="fphone" placeholder="Phone Number">
+                        <input type="text" class="form-input" id="fsubject" placeholder="Subject">
+                    </div>
+
+                    <div class="form-row-single">
+                        <textarea class="form-input" id="fmessage" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="form-submit">Send Message</button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Column 1: About -->
+                <div class="footer-about">
+                    <a href="#home" class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        TAMIL <span>TECH</span>
+                    </a>
+                    <p>Tamil Tech University is dedicated to fostering a culture of continuous learning, creativity, and
+                        growth. Our graduates are equipped with skills to excel globally.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Programs</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#departments">Departments</a></li>
+                        <li><a href="#campus">Campus Life</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Resources -->
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                        <li><a href="#">Digital Library</a></li>
+                        <li><a href="#">Career Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Newsletter -->
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p style="color: #999999; font-size: 0.88rem; margin-bottom: 18px;">Stay updated with the latest
+                        news, events, and announcements.</p>
+                    <input type="email" class="newsletter-input" placeholder="Enter your email">
+                    <button class="newsletter-btn">Subscribe Now</button>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tamil Tech University. All Rights Reserved. Designed with <i class="fas fa-heart"
+                        style="color: #C5A021;"></i> for Excellence.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 
